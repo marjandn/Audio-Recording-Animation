@@ -1,0 +1,56 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="BaseTextView">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">@font/iransans</item>
+    </style>
+
+    <style name="BaseBoldTextView">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center</item>
+        <item name="fontFamily">@font/iransans_bold</item>
+    </style>
+    <style name="TextAttachmentOptions">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="ButtonRedTextStyle">
+        <item name="android:gravity">center</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:fontFamily">@font/iransans_bold</item>
+        <item name="android:background">@drawable/style_red_button_bg</item>
+        <item name="android:textColor">@color/red02</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="MinTitleTextView" parent="BaseTextView">
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="TitleTextView" parent="BaseBoldTextView">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="ButtonTextStyle">
+        <item name="android:gravity">center</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:fontFamily">@font/iransans_bold</item>
+        <item name="android:background">@drawable/style_button_bg</item>
+        <item name="android:textColor">@color/dark</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+</resources>
