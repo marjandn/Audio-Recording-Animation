@@ -24,12 +24,12 @@ public class AttachmentOption implements Serializable {
 
     public static List<AttachmentOption> getDefaultList() {
         List<AttachmentOption> attachmentOptions = new ArrayList<>();
-//        attachmentOptions.add(new AttachmentOption(DOCUMENT_ID, "Document", R.drawable.ic_attachment_document));
+        attachmentOptions.add(new AttachmentOption(DOCUMENT_ID, "Document", R.drawable.ic_attachment_document));
         attachmentOptions.add(new AttachmentOption(CAMERA_ID, "Camera", R.drawable.ic_attachment_camera));
         attachmentOptions.add(new AttachmentOption(GALLERY_ID, "Gallery", R.drawable.ic_attachment_gallery));
-//        attachmentOptions.add(new AttachmentOption(AUDIO_ID, "Audio", R.drawable.ic_attachment_audio));
-//        attachmentOptions.add(new AttachmentOption(LOCATION_ID, "Location", R.drawable.ic_attachment_location));
-//        attachmentOptions.add(new AttachmentOption(CONTACT_ID, "Contact", R.drawable.ic_attachment_contact));
+        attachmentOptions.add(new AttachmentOption(AUDIO_ID, "Audio", R.drawable.ic_attachment_audio));
+        attachmentOptions.add(new AttachmentOption(LOCATION_ID, "Location", R.drawable.ic_attachment_location));
+        attachmentOptions.add(new AttachmentOption(CONTACT_ID, "Contact", R.drawable.ic_attachment_contact));
 
         return attachmentOptions;
     }
